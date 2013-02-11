@@ -7,15 +7,15 @@ How to use:
   1. Create a google account.
   2. Create a google form via goole document.
   3. Add some customize columns ( all column type should be text box)
-  4. 
-  4. Then you will got an automatically generated form as below link.      
-    ex: https://docs.google.com/spreadsheet/viewform?formkey=dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE6MQ
+  4. Then you will got an automatically generated form as below link.
+      ex: https://docs.google.com/spreadsheet/viewform?formkey=dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE6MQ
 
   4. Record the following information
       a. Form Key on the url. sample: dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE6MQ
       b. Columns Names. sample: Score, Feedback
 
-  5. Sample code will like below:      
+  5. Sample code will like below:
+      
       var sheet = new SpreadSheetDB('dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE6MQ') // initial the object with form key.
         .start(function() { 
           var row = sheet.newRow(); // create new row.
