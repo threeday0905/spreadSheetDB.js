@@ -6,9 +6,12 @@ This library is use to save the clinet-side data into google spread sheet.
 Live Demo
 =============
 Demo Survey (Static Page) - 
+
 https://gc.digitalriver.com/store/rivtw011/static/file.easysurvey_demo
 
+
 Data report to Google Doc - 
+
 https://docs.google.com/spreadsheet/ccc?key=0AtB7rOkgel61dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE#gid=0
 
 
