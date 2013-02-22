@@ -29,6 +29,7 @@ How to Use:
       b. Columns Names. sample: Score, Feedback
 
   6. Sample code will like below:      
+<pre>
       var sheet = new SpreadSheetDB('dG9fb3I0OXNWUm9fRUlzdlpRa0RKeEE6MQ') // initial the object with form key.
         .start(function() { 
           var row = sheet.newRow(); // create new row.
@@ -36,7 +37,7 @@ How to Use:
           row.Feedback = 'kukuku';
           row.submit(function(result) { if (result.success) { alert('Saved!!'); }} ); // save the data.
         });
-
+</pre>
 
 Restrictions:
   * IE 8, 9: The page should be used in "https" protocol
