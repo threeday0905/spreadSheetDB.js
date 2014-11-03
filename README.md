@@ -1,3 +1,6 @@
+**Google closed this way. This library has been unable to be used.**
+
+
 spreadSheetDB
 =============
 This library is use to save the clinet-side data into google spread sheet.
